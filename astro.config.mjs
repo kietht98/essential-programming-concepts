@@ -22,13 +22,11 @@ export default defineConfig({
       lastmod: new Date('2022-09-24'),
     }),
     robotsTxt({
-      sitemap:["https://essential-programming-concepts.vercel.app/sitemap.xml"],
+      sitemap:["https://essential-programming-concepts.vercel.app/sitemap_index.xml","https://essential-programming-concepts.vercel.app/sitemap-0.xml"],
       policy: [
         {
           userAgent: '*',
           allow: '/',
-          disallow: '/search',
-          crawlDelay: 10,
         },
       ],
     },)
