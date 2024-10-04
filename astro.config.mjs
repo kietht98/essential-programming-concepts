@@ -16,13 +16,11 @@ export default defineConfig({
         forward: ["dataLayer.push"],
       },
     }),
-    sitemap({
-      changefreq: 'weekly',
-      priority: 0.7,
-      lastmod: new Date('2022-09-24'),
-    }),
+    sitemap(),
     robotsTxt({
-      sitemap:["https://essential-programming-concepts.vercel.app/sitemap_index.xml","https://essential-programming-concepts.vercel.app/sitemap-0.xml"],
+      sitemap:["https://essential-programming-concepts.vercel.app/sitemap_index.xml","https://essential-programming-concepts.vercel.app/sitemap-0.xml",
+        "https://essential-programming-concepts.vercel.app/sitemap.xml", "https://essential-programming-concepts.vercel.app/sitemap-index.xml",
+      ],
       policy: [
         {
           userAgent: '*',
