@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://essential-programming-concepts.vercel.app//sitemap.xml
+Sitemap: https://essential-programming-concepts.vercel.app/sitemap.xml
