@@ -1,0 +1,3 @@
+[submodule "src/content/essential"]
+	path = src/content/essential
+	url = git@github.com:kietht98/essential.git

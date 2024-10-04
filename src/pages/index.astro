@@ -1,0 +1,106 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={SITE_TITLE}
+      description={SITE_DESCRIPTION}
+      image="/about-me.webp"
+    />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PKV5X7FF");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>🧑‍🚀 Hello, Everyone!</h1>
+      <p>
+        Welcome to the official <a href="https://astro.build/">Kiet blogger</a>
+        .This template serves as a lightweight, minimally-styled starting point for
+        anyone looking to build a personal website, blog, or portfolio with Astro.
+      </p>
+      <p>
+        Passionate and experienced front-end web developer with 4+ years of
+        experience building responsive web designs and mobile apps. Proficient
+        in CSS and JavaScript frameworks, with a strong understanding of UX and
+        user psychology. I am a highly motivated and results-oriented individual
+        with a proven track record of success in delivering high-quality web
+        applications. I am always looking for new challenges and opportunities
+        to improve my skills and knowledge. In the near future, I am seeking a
+        position where I can use my skills to make a real impact on the user
+        experience. In the long term, I aspire to become a solution architect.
+      </p>
+      <p>About me:</p>
+      <ul>
+        <li>
+          More than 4 years of experience working as a front end developer.
+        </li>
+        <li>Programming language experience Javascript/ Typescript.</li>
+        <li>
+          Developing web applications on multiple platforms using HTML/CSS -
+          Bootstrap/ Tailwind/ MaterialUI/ Ant design.
+        </li>
+        <li>
+          Working with libraries/framework included: ReactJS/ NextJS/ ViteJS/
+          GatsbyJS/ Angular(4-11) and Flutter(6 month).
+        </li>
+        <li>
+          Familiar with programing language: .Net MVC/ NodeJS- MongoDB/ SQL
+          Server.
+        </li>
+        <li>
+          In the coming years, I aim to be a successful front end developer and
+          a good Software engineer.
+        </li>
+      </ul>
+      <p>
+        Have fun! If you get stuck, remember to <a
+          href="https://docs.astro.build/"
+          >read the docs
+        </a> or <a href="https://github.com/kietht98">connect</a> to know about me.
+      </p>
+      <p>Looking for new challenges and opportunities.</p>
+    </main>
+    <Footer />
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PKV5X7FF"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"></iframe></noscript
+    >
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QCEXTM8W1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5QCEXTM8W1");
+    </script>
+  </body>
+</html>

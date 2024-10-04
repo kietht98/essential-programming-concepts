@@ -1,0 +1,28 @@
+import { a as createComponent, r as renderTemplate, m as maybeRenderHead, u as unescapeHTML } from './astro/server_CrkWirIh.mjs';
+import 'kleur/colors';
+import 'clsx';
+
+const html = "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<table><thead><tr><th>\\</th><th>Functionality</th><th>CommonJS (Microsoft)</th><th>ES Module (Google)</th></tr></thead><tbody><tr><td>Functionality</td><td>Works with the NodeJs platform</td><td>Works with the web browser environment</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Compilation</td><td>Compiled into AMD modules</td><td>Does not require a modules loader like AMD</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Dependencies</td><td>All dependencies are listed in</td><td>Reference any other module in the same</td><td></td></tr><tr><td></td><td>the same file ()</td><td>package available on the global namespace</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Type-checking</td><td>No type-checking capabilities</td><td>Robust typing support via imports</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Dependency</td><td>Packaging up functionality</td><td>Declare dependencies between modules</td><td></td></tr><tr><td>Packaging</td><td>into small pieces</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>File Structure</td><td>Flat files</td><td>References to other modules</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Export</td><td>Exports in the same file</td><td>Exports scattered through codebase</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Import</td><td>No import functionality</td><td>Must use a require statement</td><td></td></tr><tr><td></td><td></td><td>to access exported functions and</td><td></td></tr><tr><td></td><td></td><td>properties</td><td></td></tr></tbody></table>";
+
+				const frontmatter = {"title":"CommonJS vs EsModules","description":"CommonJS vs EsModules","pubDate":"Jul 08 2022","heroImage":"/cjs.png"};
+				const file = "C:/Users/kiet.huynh/Documents/essential-programming-concepts-master/essential-programming-concepts-master/src/content/essential/course/CommonJS-EsModules.md";
+				const url = undefined;
+				function rawContent() {
+					return "\n| \\              | Functionality                  | CommonJS (Microsoft)                       | ES Module (Google) |\n| -------------- | ------------------------------ | ------------------------------------------ | ------------------ |\n| Functionality  | Works with the NodeJs platform | Works with the web browser environment     |\n|                |                                |                                            |\n| Compilation    | Compiled into AMD modules      | Does not require a modules loader like AMD |\n|                |                                |                                            |\n| Dependencies   | All dependencies are listed in | Reference any other module in the same     |\n|                | the same file ()               | package available on the global namespace  |\n|                |                                |                                            |\n| Type-checking  | No type-checking capabilities  | Robust typing support via imports          |\n|                |                                |                                            |\n|                |                                |                                            |\n| Dependency     | Packaging up functionality     | Declare dependencies between modules       |\n| Packaging      | into small pieces              |                                            |\n|                |                                |                                            |\n|                |                                |                                            |\n| File Structure | Flat files                     | References to other modules                |\n|                |                                |                                            |\n|                |                                |                                            |\n| Export         | Exports in the same file       | Exports scattered through codebase         |\n|                |                                |                                            |\n|                |                                |                                            |\n| Import         | No import functionality        | Must use a require statement               |\n|                |                                | to access exported functions and           |\n|                |                                | properties                                 |\n";
+				}
+				function compiledContent() {
+					return html;
+				}
+				function getHeadings() {
+					return [];
+				}
+
+				const Content = createComponent((result, _props, slots) => {
+					const { layout, ...content } = frontmatter;
+					content.file = file;
+					content.url = url;
+
+					return renderTemplate`${maybeRenderHead()}${unescapeHTML(html)}`;
+				});
+
+export { Content, compiledContent, Content as default, file, frontmatter, getHeadings, rawContent, url };

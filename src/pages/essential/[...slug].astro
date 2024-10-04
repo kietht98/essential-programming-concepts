@@ -1,0 +1,18 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import BlogPost from "../../layouts/BlogPost.astro";
+const posts = await getCollection("essential");
+type Props = CollectionEntry<"essential">;
+console.log("posts", posts);
+const { slug } = Astro.params;
+console.log("slug", slug);
+const post = posts.find((page: { slug: string | undefined }) =>
+  slug?.includes(page.slug ?? "")
+);
+if (!post) return Astro.redirect("/404");
+const { Content } = await post.render();
+---
+
+<BlogPost {...post?.data}>
+  <Content />
+</BlogPost>
