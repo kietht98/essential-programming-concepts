@@ -3,7 +3,8 @@ import mdx from "@astrojs/mdx";
 import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 import vercel from '@astrojs/vercel/serverless';
-import sitemap from '@astrojs/sitemap';
+import robotsTxt from 'astro-robots-txt';
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://essential-programming-concepts.vercel.app",
@@ -19,7 +20,18 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date('2022-09-24'),
-    })
+    }),
+    robotsTxt({
+      sitemap:["https://essential-programming-concepts.vercel.app/sitemap.xml"],
+      policy: [
+        {
+          userAgent: '*',
+          allow: '/',
+          disallow: '/search',
+          crawlDelay: 10,
+        },
+      ],
+    },)
   ],
   output: 'server',
   adapter: vercel({
