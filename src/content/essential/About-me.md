@@ -1,7 +1,7 @@
 ---
 title: "Passionate"
 description: "Parcel combines a great out-of-the-box development experience"
-pubDate: "Jul 08 2022"
+pubDate: "Jul 09 2024"
 heroImage: "/about-me.webp"
 ---
 

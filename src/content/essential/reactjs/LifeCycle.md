@@ -1,7 +1,7 @@
 ---
 title: "Life cycle ReactJs"
 description: "A component mounts when it’s added to the screen."
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/lifecycle.webp"
 ---
 

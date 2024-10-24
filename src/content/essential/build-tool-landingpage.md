@@ -1,7 +1,7 @@
 ---
 title: "Landingpage.fyi"
 description: "Parcel combines a great out-of-the-box development experience"
-pubDate: "Jul 08 2022"
+pubDate: "Feb 21 2024"
 heroImage: "/social-og.png"
 ---
 

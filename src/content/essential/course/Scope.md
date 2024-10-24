@@ -1,7 +1,7 @@
 ---
 title: "Scope"
 description: "Nested (child) function have access to the scope of their parent functions"
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/scope.png"
 ---
 

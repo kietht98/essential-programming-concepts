@@ -1,7 +1,7 @@
 ---
 title: "Zustand 🔥🔥🔥 Great!!!"
 description: ""
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/zustand.png"
 ---
 

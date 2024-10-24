@@ -1,7 +1,7 @@
 ---
 title: "Target vs CurrentTarget"
 description: "Capturing => Target => Bubbling"
-pubDate: "Jul 08 2022"
+pubDate: "Aug 10 2024"
 heroImage: "/targetjs.webp"
 ---
 

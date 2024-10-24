@@ -1,7 +1,7 @@
 ---
 title: "CommonJS vs EsModules"
 description: "CommonJS vs EsModules"
-pubDate: "Jul 08 2022"
+pubDate: "Apr 20 2024"
 heroImage: "/cjs.png"
 ---
 

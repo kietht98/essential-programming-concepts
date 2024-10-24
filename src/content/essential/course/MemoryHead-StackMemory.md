@@ -1,7 +1,7 @@
 ---
 title: "MemoryHead vs StackMemory"
 description: "MemoryHead ...."
-pubDate: "Jul 08 2022"
+pubDate: "Jul 01 2024"
 heroImage: "/memory.png"
 ---
 

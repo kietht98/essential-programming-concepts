@@ -1,7 +1,7 @@
 ---
 title: "FunctionBinding"
 description: "The bind() method of Function instances"
-pubDate: "Jul 08 2022"
+pubDate: "Feb 08 2024"
 heroImage: "/bindingjs.jpg"
 ---
 

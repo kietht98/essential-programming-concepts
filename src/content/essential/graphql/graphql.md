@@ -1,7 +1,7 @@
 ---
 title: "Graphql"
 description: "is an open source query language and runtime APis."
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/graphql.png"
 ---
 

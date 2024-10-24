@@ -1,7 +1,7 @@
 ---
 title: "Prototypal Inheritance and the Prototype chain"
 description: "ES6 introduced classes which is the modern way to construct objects"
-pubDate: "Jul 08 2022"
+pubDate: "May 12 2024"
 heroImage: "/prototype.png"
 ---
 

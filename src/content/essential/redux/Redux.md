@@ -1,7 +1,7 @@
 ---
 title: "What is Redux?"
 description: "is an open source library made"
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/redux.jpeg"
 ---
 

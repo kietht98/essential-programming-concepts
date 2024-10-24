@@ -2,7 +2,7 @@
 title: "Why cannot stop foreach?"
 description: "cannot stop foreach
   because there, foreach is not technically in a loop."
-pubDate: "Jul 08 2022"
+pubDate: "Jul 08 2024"
 heroImage: "/break-from-foreach-in-javascript.png"
 ---
 
