@@ -4,6 +4,7 @@ import partytown from "@astrojs/partytown";
 import sitemap from "@astrojs/sitemap";
 import vercel from '@astrojs/vercel/serverless';
 import robotsTxt from 'astro-robots-txt';
+import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
@@ -33,4 +34,6 @@ export default defineConfig({
   adapter: vercel({
     webAnalytics: { enabled: true }
   }),
+  output: 'server',
+  adapter: netlify(),
 });
